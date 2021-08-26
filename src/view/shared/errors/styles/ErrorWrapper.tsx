@@ -81,7 +81,7 @@ const ErrorWrapper = styled.div`
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
-    background: #189cf0;
+    background: #34b7a7;
     display: inline-block;
     padding: 16px 38px;
     border: 2px solid transparent;

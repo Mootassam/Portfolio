@@ -1,7 +1,7 @@
 const publicRoutes = [
   {
     path: "/",
-    loader: () => import("src/view/home/homePage"),
+    loader: () => import("src/view/home/HomePage"),
   },
   {
     path: "/about",
