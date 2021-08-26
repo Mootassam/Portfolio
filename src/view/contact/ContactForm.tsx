@@ -19,7 +19,6 @@ const schema = yup.object().shape({
     required: true,
   }),
 });
-
 function ContactForm(props) {
   const [initailValues] = useState(() => {
     return {
