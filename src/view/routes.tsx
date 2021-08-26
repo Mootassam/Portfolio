@@ -21,7 +21,7 @@ const publicRoutes = [
   },
   {
     path: "/contact",
-    loader: () => import("src/view/contact/contactPage"),
+    loader: () => import("src/view/contact/contactFormPage"),
   },
 ].filter(Boolean);
 

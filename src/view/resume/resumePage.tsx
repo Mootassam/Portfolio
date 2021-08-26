@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "src/view/Layout/Footer";
-
 function resumePage() {
   return (
     <>
@@ -126,7 +124,6 @@ function resumePage() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

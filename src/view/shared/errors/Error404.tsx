@@ -14,7 +14,7 @@ const Error404Page = () => {
             The page you are looking for might have been removed had its name
             changed or is temporarily unavailable.
           </p>
-          <a>Back To Homepage</a>
+          <Link to={"/"}>Back To Homepage</Link>
         </div>
       </div>
     </ErrorWrapper>

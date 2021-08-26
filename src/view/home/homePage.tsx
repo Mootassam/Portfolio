@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "src/view/Layout/Footer";
 
 function homePage() {
   return (
@@ -16,7 +15,6 @@ function homePage() {
           </a>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

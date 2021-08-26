@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "src/view/Layout/Footer";
 
 function servicesPage() {
   return (
@@ -193,7 +192,6 @@ function servicesPage() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

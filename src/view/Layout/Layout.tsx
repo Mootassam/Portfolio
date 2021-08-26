@@ -9,6 +9,7 @@ function Layout(props) {
     <>
       <Header url={match.url} />
       <main id='main'>{props.children}</main>
+      {/* <Footer /> */}
     </>
   );
 }
