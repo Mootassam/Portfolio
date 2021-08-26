@@ -7,7 +7,6 @@ export default class ProgressBar {
   static start() {
     NProgress.start();
   }
-
   static done() {
     NProgress.done();
   }
