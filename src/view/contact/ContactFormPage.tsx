@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ContactForm from "src/view/contact/ContactForm";
 import actions from "src/modules/contact/form/contactFormActions";
@@ -7,6 +7,9 @@ function ContactFormPage() {
   const [dispatched, setDispatched] = useState(false);
   const dispatch = useDispatch();
   const saveLoading = useSelector(selectors.selectSaveLoading);
+  useEffect(() => {
+    setDispatched(true);
+  }, [dispatch]);
   const doSubmit = (data) => {
     dispatch(actions.doCreate(data));
   };
@@ -51,7 +54,9 @@ function ContactFormPage() {
             </div>
 
             <div className='col-lg-8 mt-5 mt-lg-0'>
-              <ContactForm saveLoading={saveLoading} onSubmit={doSubmit} />
+              {dispatched && (
+                <ContactForm saveLoading={saveLoading} onSubmit={doSubmit} />
+              )}
             </div>
           </div>
         </div>

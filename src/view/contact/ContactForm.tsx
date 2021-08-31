@@ -21,24 +21,30 @@ const schema = yup.object().shape({
   }),
 });
 function ContactForm(props) {
-  const [initailValues] = useState(() => {
+  const [initialValues] = useState(() => {
+    const record = props.record || {};
+
     return {
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
+      name: record.name,
+      email: record.email,
+      subject: record.subject,
+      message: record.message,
     };
   });
 
   const form = useForm({
     resolver: yupResolver(schema),
     mode: "all",
-    defaultValues: initailValues,
+    defaultValues: initialValues,
   });
 
   const onSubmit = (values) => {
     props.onSubmit(values);
+    Object.keys(initialValues).forEach((key) => {
+      form.setValue(key, initialValues[key]);
+    });
   };
+
   return (
     <FormProvider {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className='php-email-form'>
@@ -71,13 +77,7 @@ function ContactForm(props) {
         <div className='form-group mt-3'>
           <TextAreaFormItem name={"message"} placeholder={"Message"} />
         </div>
-        <div className='my-3'>
-          <div className='loading'>Loading</div>
-          <div className='error-message'></div>
-          <div className='sent-message'>
-            Your message has been sent. Thank you!
-          </div>
-        </div>
+
         <div className='text-center'>
           <button type='submit' disabled={props.saveLoading}>
             <ButtonSpinner loading={props.saveLoading} />
