@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import ContactForm from "src/view/contact/ContactForm";
-
-function contactPage() {
-  const doSubmit = () => {
-    alert("submit Form Contact");
+import actions from "src/modules/contact/form/contactFormActions";
+import selectors from "src/modules/contact/form/contactFormSelectors";
+function ContactFormPage() {
+  const [dispatched, setDispatched] = useState(false);
+  const dispatch = useDispatch();
+  const saveLoading = useSelector(selectors.selectSaveLoading);
+  const doSubmit = (data) => {
+    dispatch(actions.doCreate(data));
   };
   return (
     <>
@@ -46,7 +51,7 @@ function contactPage() {
             </div>
 
             <div className='col-lg-8 mt-5 mt-lg-0'>
-              <ContactForm onSubmit={doSubmit} />
+              <ContactForm saveLoading={saveLoading} onSubmit={doSubmit} />
             </div>
           </div>
         </div>
@@ -55,4 +60,4 @@ function contactPage() {
   );
 }
 
-export default contactPage;
+export default ContactFormPage;

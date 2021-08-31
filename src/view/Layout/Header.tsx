@@ -12,7 +12,9 @@ function Header(props) {
           <ul>
             {menue.map((menue) => (
               <li key={menue.path}>
-                <Link to={`${menue.path}`}>{menue.label}</Link>
+                <Link activeClassName={menue.class} to={`${menue.path}`}>
+                  {menue.label}
+                </Link>
               </li>
             ))}
           </ul>

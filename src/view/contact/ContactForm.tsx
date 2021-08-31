@@ -5,6 +5,7 @@ import { FormProvider, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import yupValidation from "src/view/shared/yup/yupValidation";
+import ButtonSpinner from "../shared/ButtonSpinner";
 const schema = yup.object().shape({
   name: yupValidation.string("name", {
     required: true,
@@ -78,7 +79,10 @@ function ContactForm(props) {
           </div>
         </div>
         <div className='text-center'>
-          <button type='submit'>Send Message</button>
+          <button type='submit' disabled={props.saveLoading}>
+            <ButtonSpinner loading={props.saveLoading} />
+            Send Message
+          </button>
         </div>
       </form>
     </FormProvider>
