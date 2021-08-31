@@ -76,35 +76,5 @@ const ContentWrapper = styled.div`
       transform: rotate(360deg);
     }
   }
-
-  .back-to-top {
-    position: fixed;
-    visibility: hidden;
-    opacity: 0;
-    right: 15px;
-    bottom: 15px;
-    z-index: 996;
-    background: #34b7a7;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    transition: all 0.4s;
-  }
-
-  .back-to-top i {
-    font-size: 24px;
-    color: #fff;
-    line-height: 0;
-  }
-
-  .back-to-top:hover {
-    background: #49cbbb;
-    color: #fff;
-  }
-
-  .back-to-top.active {
-    visibility: visible;
-    opacity: 1;
-  }
 `;
 export default ContentWrapper;
