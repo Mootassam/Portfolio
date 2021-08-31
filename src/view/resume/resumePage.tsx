@@ -1,7 +1,8 @@
 import React from "react";
+import ResumeWrapper from "../shared/styles/ResumeWrapper";
 function resumePage() {
   return (
-    <>
+    <ResumeWrapper>
       <section id='resume' className='resume'>
         <div className='container' data-aos='fade-up'>
           <div className='section-title'>
@@ -124,7 +125,7 @@ function resumePage() {
           </div>
         </div>
       </section>
-    </>
+    </ResumeWrapper>
   );
 }
 

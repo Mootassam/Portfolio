@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import ContactForm from "src/view/contact/ContactForm";
 import actions from "src/modules/contact/form/contactFormActions";
 import selectors from "src/modules/contact/form/contactFormSelectors";
+import ContactWrapeer from "../shared/styles/ContactWrapeer";
 function ContactFormPage() {
   const [dispatched, setDispatched] = useState(false);
   const dispatch = useDispatch();
@@ -14,7 +15,7 @@ function ContactFormPage() {
     dispatch(actions.doCreate(data));
   };
   return (
-    <>
+    <ContactWrapeer>
       <section id='contact' className='contact'>
         <div className='container' data-aos='fade-up'>
           <div className='section-title'>
@@ -61,7 +62,7 @@ function ContactFormPage() {
           </div>
         </div>
       </section>
-    </>
+    </ContactWrapeer>
   );
 }
 

@@ -1,8 +1,9 @@
 import React from "react";
+import AboutWrapper from "../shared/styles/AboutWrapper";
 
 function aboutPage() {
   return (
-    <>
+    <AboutWrapper>
       <section id='about' className='about'>
         <div className='container' data-aos='fade-up'>
           <div className='section-title'>
@@ -185,7 +186,7 @@ function aboutPage() {
           </div>
         </div>
       </section>
-    </>
+    </AboutWrapper>
   );
 }
 

@@ -1,8 +1,9 @@
 import React from "react";
+import PortfolioWrapper from "../shared/styles/PortfolioWrapper";
 
 function portfolioPage() {
   return (
-    <>
+    <PortfolioWrapper>
       <section id='portfolio' className='portfolio'>
         <div className='container' data-aos='fade-up'>
           <div className='section-title'>
@@ -302,7 +303,7 @@ function portfolioPage() {
           </div>
         </div>
       </section>
-    </>
+    </PortfolioWrapper>
   );
 }
 

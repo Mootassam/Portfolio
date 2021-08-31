@@ -1,8 +1,9 @@
 import React from "react";
+import ServiceWrapper from "../shared/styles/ServiceWrapper";
 
 function servicesPage() {
   return (
-    <>
+    <ServiceWrapper>
       <section id='services' className='services'>
         <div className='container' data-aos='fade-up'>
           <div className='section-title'>
@@ -192,7 +193,7 @@ function servicesPage() {
           </div>
         </div>
       </section>
-    </>
+    </ServiceWrapper>
   );
 }
 
