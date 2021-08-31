@@ -1,20 +1,20 @@
 import React from "react";
 import menue from "src/view/menue";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 function Header(props) {
   return (
     <header id='header' className='fixed-top'>
       <div className='container-fluid d-flex justify-content-between align-items-center'>
         <h1 className='logo me-auto me-lg-0'>
-          <a>Logo</a>
+          <Link to={`/`}>Logo</Link>
         </h1>
         <nav id='navbar' className='navbar order-last order-lg-0'>
           <ul>
             {menue.map((menue) => (
               <li key={menue.path}>
-                <Link activeClassName={menue.class} to={`${menue.path}`}>
+                <NavLink activeClassName={menue.class} to={`${menue.path}`}>
                   {menue.label}
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>
@@ -23,10 +23,10 @@ function Header(props) {
 
         <div className='header-social-links'>
           <a className='twitter'>
-            <i className='bi bi-twitter'></i>
+            <i className='bi bi-discord'></i>
           </a>
-          <a className='facebook'>
-            <i className='bi bi-facebook'></i>
+          <a className='github'>
+            <i className='bi bi-github'></i>
           </a>
           <a className='instagram'>
             <i className='bi bi-instagram'></i>

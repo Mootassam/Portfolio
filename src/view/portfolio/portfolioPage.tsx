@@ -8,10 +8,7 @@ function portfolioPage() {
           <div className='section-title'>
             <h2>Portfolio</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              In-depth Case Studies to show you what I can offer and how I work.
             </p>
           </div>
 
@@ -21,9 +18,10 @@ function portfolioPage() {
                 <li data-filter='*' className='filter-active'>
                   All
                 </li>
-                <li data-filter='.filter-app'>App</li>
-                <li data-filter='.filter-card'>Card</li>
-                <li data-filter='.filter-web'>Web</li>
+                <li data-filter='.filter-app'>All</li>
+                <li data-filter='.filter-card'>Angular</li>
+                <li data-filter='.filter-web'>Reactjs</li>
+                <li data-filter='.filter-web'>React_Native</li>
               </ul>
             </div>
           </div>
