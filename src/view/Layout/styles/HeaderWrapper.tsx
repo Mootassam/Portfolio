@@ -44,7 +44,7 @@ const HeaderWrapper = styled.div`
     display: inline-block;
     line-height: 0px;
     transition: 0.3s;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .header-social-links a:hover {

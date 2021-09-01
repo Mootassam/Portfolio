@@ -2,6 +2,7 @@ import React from "react";
 import menue from "src/view/menue";
 import { Link, NavLink } from "react-router-dom";
 import HeaderWrapper from "./styles/HeaderWrapper";
+import { FaDiscord, FaGithub, FaLinkedin } from "react-icons/fa";
 function Header(props) {
   return (
     <HeaderWrapper>
@@ -25,16 +26,13 @@ function Header(props) {
 
           <div className='header-social-links'>
             <a className='twitter'>
-              <i className='bi bi-discord'></i>
+              <FaDiscord />
             </a>
             <a className='github'>
-              <i className='bi bi-github'></i>
-            </a>
-            <a className='instagram'>
-              <i className='bi bi-instagram'></i>
+              <FaGithub />
             </a>
             <a className='linkedin'>
-              <i className='bi bi-linkedin'></i>
+              <FaLinkedin />
             </a>
           </div>
         </div>
