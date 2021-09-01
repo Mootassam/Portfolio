@@ -28,7 +28,7 @@ const PortfolioWrapper = styled.div`
   .portfolio #portfolio-flters li:hover,
   .portfolio #portfolio-flters li.filter-active {
     color: #fff;
-    background: #34b7a7;
+    background: #6c3654;
   }
 
   .portfolio #portfolio-flters li:last-child {
@@ -144,14 +144,14 @@ const PortfolioWrapper = styled.div`
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #34b7a7;
+    border: 1px solid #6c3654;
   }
 
   .portfolio-details
     .portfolio-details-slider
     .swiper-pagination
     .swiper-pagination-bullet-active {
-    background-color: #34b7a7;
+    background-color: #6c3654;
   }
 
   .portfolio-details .portfolio-info {
@@ -219,7 +219,7 @@ const PortfolioWrapper = styled.div`
     display: block;
     width: 50px;
     height: 3px;
-    background: #34b7a7;
+    background: #6c3654;
     bottom: 0;
     left: calc(50% - 25px);
   }

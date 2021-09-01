@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #34b7a7;
+  color: #6c3654;
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #34b7a7;
+  border: 6px solid #6c3654;
   border-top-color: #dcf5f2;
   border-radius: 50%;
   width: 60px;
@@ -81,7 +81,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #34b7a7;
+  background: #6c3654;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -117,5 +117,5 @@ h6 {
 }
 
 #footer .credits a {
-  color: #34b7a7;
+  color: #6c3654;
 }

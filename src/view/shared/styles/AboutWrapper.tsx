@@ -18,7 +18,7 @@ const AboutWrapper = styled.div`
   .about .content ul i {
     font-size: 20px;
     padding-right: 2px;
-    color: #34b7a7;
+    color: #6c3654;
   }
 
   .about .content p:last-child {
@@ -58,7 +58,7 @@ const AboutWrapper = styled.div`
     width: 1px;
     height: 10px;
     transition: 0.9s;
-    background-color: #34b7a7;
+    background-color: #6c3654;
   }
   section {
     padding: 60px 0;
@@ -88,7 +88,7 @@ const AboutWrapper = styled.div`
     display: block;
     width: 50px;
     height: 3px;
-    background: #34b7a7;
+    background: #6c3654;
     bottom: 0;
     left: calc(50% - 25px);
   }

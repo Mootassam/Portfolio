@@ -44,7 +44,7 @@ const HomeWrapper = styled.div`
     transition: 0.5s;
     margin-top: 30px;
     color: #fff;
-    background: #34b7a7;
+    background: #6c3654;
   }
 
   #hero .btn-about:hover {
@@ -105,7 +105,7 @@ const HomeWrapper = styled.div`
     display: block;
     width: 50px;
     height: 3px;
-    background: #34b7a7;
+    background: #6c3654;
     bottom: 0;
     left: calc(50% - 25px);
   }

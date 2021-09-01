@@ -48,7 +48,7 @@ const HeaderWrapper = styled.div`
   }
 
   .header-social-links a:hover {
-    color: #34b7a7;
+    color: #6c3654;
   }
 
   /*--------------------------------------------------------------
@@ -102,7 +102,7 @@ const HeaderWrapper = styled.div`
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #34b7a7;
+    background-color: #6c3654;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -157,7 +157,7 @@ const HeaderWrapper = styled.div`
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover > a {
-    color: #34b7a7;
+    color: #6c3654;
   }
 
   .navbar .dropdown:hover > ul {
@@ -254,7 +254,7 @@ const HeaderWrapper = styled.div`
   .navbar-mobile a:hover,
   .navbar-mobile .active,
   .navbar-mobile li:hover > a {
-    color: #34b7a7;
+    color: #6c3654;
   }
 
   .navbar-mobile .getstarted {
@@ -288,7 +288,7 @@ const HeaderWrapper = styled.div`
   .navbar-mobile .dropdown ul a:hover,
   .navbar-mobile .dropdown ul .active:hover,
   .navbar-mobile .dropdown ul li:hover > a {
-    color: #34b7a7;
+    color: #6c3654;
   }
 
   .navbar-mobile .dropdown > .dropdown-active {
@@ -301,7 +301,7 @@ const HeaderWrapper = styled.div`
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #34b7a7;
+    background: #6c3654;
     width: 40px;
     height: 40px;
     border-radius: 50px;

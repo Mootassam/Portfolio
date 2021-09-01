@@ -11,7 +11,7 @@ const ResumeWrapper = styled.div`
   .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #34b7a7;
+    border-left: 2px solid #6c3654;
     position: relative;
   }
 
@@ -20,7 +20,7 @@ const ResumeWrapper = styled.div`
     font-size: 18px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    color: #1d685f;
+    color: #84afb6;
     margin-bottom: 10px;
   }
 
@@ -31,7 +31,7 @@ const ResumeWrapper = styled.div`
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #34b7a7;
+    color: #6c3654;
   }
 
   .resume .resume-item ul {
@@ -55,7 +55,7 @@ const ResumeWrapper = styled.div`
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #34b7a7;
+    border: 2px solid #6c3654;
   }
   section {
     padding: 60px 0;
@@ -85,12 +85,12 @@ const ResumeWrapper = styled.div`
     display: block;
     width: 50px;
     height: 3px;
-    background: #34b7a7;
+    background: #6c3654;
     bottom: 0;
     left: calc(50% - 25px);
   }
 
-  .section-title p {
+  .section-title p {gi
     margin-bottom: 0;
   }
 `;

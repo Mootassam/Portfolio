@@ -25,13 +25,22 @@ function Header(props) {
           </nav>
 
           <div className='header-social-links'>
-            <a className='twitter'>
+            <a
+              className='twitter'
+              href='https://discord.com/channels/828322049251999755/865254856595603466'
+              target='_blank'>
               <FaDiscord />
             </a>
-            <a className='github'>
+            <a
+              className='github'
+              href='https://github.com/Mootassam'
+              target='_blank'>
               <FaGithub />
             </a>
-            <a className='linkedin'>
+            <a
+              className='linkedin'
+              href='https://www.linkedin.com/in/mootassam-boughdiri-06588b196/'
+              target='_blank'>
               <FaLinkedin />
             </a>
           </div>

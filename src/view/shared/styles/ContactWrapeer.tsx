@@ -7,7 +7,7 @@ const ContactWrapeer = styled.div`
 
   .contact .info i {
     font-size: 20px;
-    color: #34b7a7;
+    color: #6c3654;
     float: left;
     width: 44px;
     height: 44px;
@@ -42,7 +42,7 @@ const ContactWrapeer = styled.div`
   .contact .info .email:hover i,
   .contact .info .address:hover i,
   .contact .info .phone:hover i {
-    background: #34b7a7;
+    background: #6c3654;
     color: #fff;
   }
 
@@ -102,7 +102,7 @@ const ContactWrapeer = styled.div`
 
   .contact .php-email-form input:focus,
   .contact .php-email-form textarea:focus {
-    border-color: #34b7a7;
+    border-color: #6c3654;
   }
 
   .contact .php-email-form input {
@@ -114,7 +114,7 @@ const ContactWrapeer = styled.div`
   }
 
   .contact .php-email-form button[type="submit"] {
-    background: #34b7a7;
+    background: #6c3654;
     border: 0;
     padding: 10px 30px 12px 30px;
     color: #fff;
@@ -172,7 +172,7 @@ const ContactWrapeer = styled.div`
     display: block;
     width: 50px;
     height: 3px;
-    background: #34b7a7;
+    background: #6c3654;
     bottom: 0;
     left: calc(50% - 25px);
   }
