@@ -102,6 +102,7 @@ function aboutPage() {
                   HTML <i className='val'>100%</i>
                 </span>
                 <div className='progress-bar-wrap'>
+                  <i className='fa fa-html'></i>
                   <div
                     className='progress-bar'
                     role='progressbar'

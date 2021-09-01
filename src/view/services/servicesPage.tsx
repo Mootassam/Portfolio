@@ -66,11 +66,12 @@ function servicesPage() {
                   <i className='bx bx-file'></i>
                 </div>
                 <h4>
-                  <a href=''>Sed Perspiciatis</a>
+                  <a href=''>Website Development</a>
                 </h4>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore
+                  I use various web technologies to develop attractive websites
+                  which converts visitors to customers. I develop creative and
+                  responsive website layouts.
                 </p>
               </div>
             </div>
