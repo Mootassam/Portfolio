@@ -41,6 +41,11 @@ function resumePage() {
               <div className='resume-item'>
                 <h4>Master of Fine Arts &amp; Graphic Design</h4>
                 <h5>2015 - 2016</h5>
+                <img
+                  src='assets/img/resume/copie_licence.jpg'
+                  className='img-fluid'
+                  alt=''
+                />
                 <p>
                   <em>Rochester Institute of Technology, Rochester, NY</em>
                 </p>
@@ -51,8 +56,13 @@ function resumePage() {
                 </p>
               </div>
               <div className='resume-item'>
-                <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                <h5>2010 - 2014</h5>
+                <h4>Bachelor of computer science</h4>
+                <h5>2012 - 2016</h5>
+                <img
+                  src='assets/img/resume/baccalaureat.jpg'
+                  className='img-fluid'
+                  alt=''
+                />
                 <p>
                   <em>Rochester Institute of Technology, Rochester, NY</em>
                 </p>
