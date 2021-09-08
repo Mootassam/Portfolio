@@ -4,6 +4,9 @@ import ContactForm from "src/view/contact/ContactForm";
 import actions from "src/modules/contact/form/contactFormActions";
 import selectors from "src/modules/contact/form/contactFormSelectors";
 import ContactWrapeer from "../shared/styles/ContactWrapeer";
+import { FaDiscord, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 function ContactFormPage() {
   const [dispatched, setDispatched] = useState(false);
   const dispatch = useDispatch();
@@ -34,20 +37,20 @@ function ContactFormPage() {
           <div className='row mt-5'>
             <div className='col-lg-4'>
               <div className='info'>
+                <FaMapMarkerAlt size={30} />
                 <div className='address'>
-                  <i className='bi bi-geo-alt'></i>
                   <h4>Location:</h4>
                   <p>Tunis</p>
                 </div>
 
                 <div className='email'>
-                  <i className='bi bi-envelope'></i>
+                  <MdEmail size={30} />
                   <h4>Email:</h4>
                   <p>mootassame@gmail.com</p>
                 </div>
 
                 <div className='phone'>
-                  <i className='bi bi-phone'></i>
+                  <FaPhoneAlt size={30} />
                   <h4>Call:</h4>
                   <p>+216 55.324.424</p>
                 </div>

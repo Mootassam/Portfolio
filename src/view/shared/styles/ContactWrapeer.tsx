@@ -33,10 +33,10 @@ const ContactWrapeer = styled.div`
     font-size: 14px;
     color: #555555;
   }
-
+  contact .info .address,
   .contact .info .email,
   .contact .info .phone {
-    margin-top: 40px;
+    margin-top: 10px;
   }
 
   .contact .info .email:hover i,
