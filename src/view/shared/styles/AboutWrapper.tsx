@@ -28,9 +28,12 @@ const AboutWrapper = styled.div`
   /*--------------------------------------------------------------
                   # Skills
   --------------------------------------------------------------*/
-  #skills {
+  #ski {
     justify-content: space-between;
     background: #eaf2fa;
+  }
+  #spa {
+    padding-bottom: 5%;
   }
 
   .skills .progress {

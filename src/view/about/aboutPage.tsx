@@ -34,6 +34,8 @@ function aboutPage() {
                 where I can apply my broad development experience and hands-on
                 technical expertise.
               </p>
+
+              <div className='text-center'></div>
               <div className='row'>
                 <div className='col-lg-6'>
                   <ul>
@@ -90,52 +92,52 @@ function aboutPage() {
         </div>
       </section>
 
-      <section id='skills' className='skills'>
+      <section id='ski' className='skills'>
         <div className='container' data-aos='fade-up'>
           <div className='section-title'>
             <h2>Skills</h2>
           </div>
 
           <div className='row skills-content'>
-            <div className='row'>
+            <div className='row' id='spa'>
               <div className='col col-lg-2'>
-                <FaReact size={80} />
+                <FaReact size={60} />
               </div>
               <div className='col col-lg-2'>
-                <FaHtml5 size={80} />
+                <FaHtml5 size={60} />
               </div>
               <div className='col col-lg-2'>
-                <FaCss3 size={80} />
+                <FaCss3 size={60} />
               </div>
               <div className='col col-lg-2'>
-                <FaNodeJs size={80} />
+                <FaNodeJs size={60} />
               </div>
               <div className='col col-lg-2'>
-                <FaNodeJs size={80} />
+                <FaNodeJs size={60} />
               </div>
               <div className='col col-lg-2'>
-                <SiTypescript size={80} />
+                <SiTypescript size={60} />
               </div>
             </div>
 
             <div className='row'>
               <div className='col col-lg-2'>
-                <FaAngular size={80} />
+                <FaAngular size={60} />
               </div>
               <div className='col col-lg-2'>
-                <SiJavascript size={80} />
+                <SiJavascript size={60} />
               </div>
               <div className='col col-lg-2'>
-                <FaDocker size={80} />
+                <FaDocker size={60} />
               </div>
               <div className='col col-lg-2'>
-                <SiNginx size={80} />
+                <SiNginx size={60} />
               </div>
               <div className='col col-lg-2'>
-                <FaGitSquare size={80} />
+                <FaGitSquare size={60} />
               </div>
               <div className='col-lg-2'>
-                <FaUbuntu size={80} />
+                <FaUbuntu size={60} />
               </div>
             </div>
           </div>
