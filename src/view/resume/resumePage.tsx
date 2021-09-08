@@ -90,7 +90,7 @@ function resumePage() {
                     </li>
                     <li>
                       Delegate tasks to the 7 members of the design team and
-                      provide counsel on all aspects of the project.{" "}
+                      provide counsel on all aspects of the project.
                     </li>
                     <li>
                       Supervise the assessment of all graphic materials in order

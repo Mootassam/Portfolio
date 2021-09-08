@@ -14,7 +14,7 @@ const FooterWrapper = styled.div`
   }
 
   #footer .credits a {
-    color: #6c3654;
+    color: #795548;
   }
 `;
 export default FooterWrapper;

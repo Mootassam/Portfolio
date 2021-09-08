@@ -1,7 +1,7 @@
 import styled from "styled-components";
 const HeaderWrapper = styled.div`
   #header {
-    background: #e9e8e6;
+    background: #f7f7f7;
     box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
     z-index: 997;
     padding: 9px 0;
@@ -48,7 +48,7 @@ const HeaderWrapper = styled.div`
   }
 
   .header-social-links a:hover {
-    color: #6c3654;
+    color: #795548;
   }
 
   /*--------------------------------------------------------------
@@ -102,7 +102,7 @@ const HeaderWrapper = styled.div`
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #6c3654;
+    background-color: #795548;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -157,7 +157,7 @@ const HeaderWrapper = styled.div`
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover > a {
-    color: #6c3654;
+    color: #795548;
   }
 
   .navbar .dropdown:hover > ul {
@@ -254,7 +254,7 @@ const HeaderWrapper = styled.div`
   .navbar-mobile a:hover,
   .navbar-mobile .active,
   .navbar-mobile li:hover > a {
-    color: #6c3654;
+    color: #795548;
   }
 
   .navbar-mobile .getstarted {
@@ -288,7 +288,7 @@ const HeaderWrapper = styled.div`
   .navbar-mobile .dropdown ul a:hover,
   .navbar-mobile .dropdown ul .active:hover,
   .navbar-mobile .dropdown ul li:hover > a {
-    color: #6c3654;
+    color: #795548;
   }
 
   .navbar-mobile .dropdown > .dropdown-active {
@@ -301,7 +301,7 @@ const HeaderWrapper = styled.div`
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #6c3654;
+    background: #795548;
     width: 40px;
     height: 40px;
     border-radius: 50px;

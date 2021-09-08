@@ -38,19 +38,19 @@ function aboutPage() {
                 <div className='col-lg-6'>
                   <ul>
                     <li>
-                      <i className='bi bi-rounded-right'></i>{" "}
+                      <i className='bi bi-rounded-right'></i>
                       <strong>Birthday:</strong> 1 May 1995
                     </li>
                     <li>
-                      <i className='bi bi-rounded-right'></i>{" "}
+                      <i className='bi bi-rounded-right'></i>
                       <strong>Website:</strong> www.example.com
                     </li>
                     <li>
-                      <i className='bi bi-rounded-right'></i>{" "}
+                      <i className='bi bi-rounded-right'></i>
                       <strong>Phone:</strong> +123 456 7890
                     </li>
                     <li>
-                      <i className='bi bi-rounded-right'></i>{" "}
+                      <i className='bi bi-rounded-right'></i>
                       <strong>City:</strong> City : New York, USA
                     </li>
                   </ul>
@@ -58,19 +58,19 @@ function aboutPage() {
                 <div className='col-lg-6'>
                   <ul>
                     <li>
-                      <i className='bi bi-rounded-right'></i>{" "}
+                      <i className='bi bi-rounded-right'></i>
                       <strong>Age:</strong> 24
                     </li>
                     <li>
-                      <i className='bi bi-rounded-right'></i>{" "}
+                      <i className='bi bi-rounded-right'></i>
                       <strong>Degree:</strong> Master
                     </li>
                     <li>
-                      <i className='bi bi-rounded-right'></i>{" "}
+                      <i className='bi bi-rounded-right'></i>
                       <strong>PhEmailone:</strong> email@example.com
                     </li>
                     <li>
-                      <i className='bi bi-rounded-right'></i>{" "}
+                      <i className='bi bi-rounded-right'></i>
                       <strong>Freelance:</strong> Available
                     </li>
                   </ul>
@@ -97,19 +97,46 @@ function aboutPage() {
           </div>
 
           <div className='row skills-content'>
-            <div className='col-lg-12'>
-              <FaReact size={80} />
-              <FaHtml5 size={80} />
-              <FaCss3 size={80} />
-              <FaNodeJs size={80} />
-              <FaAngular size={80} />
-              <SiJavascript size={80} /> &nbsp;
-              <SiTypescript size={80} />
-              &nbsp;
-              <FaDocker size={80} />
-              <SiNginx size={80} />
-              <FaGitSquare size={80} />
-              <FaUbuntu size={80} />
+            <div className='row'>
+              <div className='col col-lg-2'>
+                <FaReact size={80} />
+              </div>
+              <div className='col col-lg-2'>
+                <FaHtml5 size={80} />
+              </div>
+              <div className='col col-lg-2'>
+                <FaCss3 size={80} />
+              </div>
+              <div className='col col-lg-2'>
+                <FaNodeJs size={80} />
+              </div>
+              <div className='col col-lg-2'>
+                <FaNodeJs size={80} />
+              </div>
+              <div className='col col-lg-2'>
+                <SiTypescript size={80} />
+              </div>
+            </div>
+
+            <div className='row'>
+              <div className='col col-lg-2'>
+                <FaAngular size={80} />
+              </div>
+              <div className='col col-lg-2'>
+                <SiJavascript size={80} />
+              </div>
+              <div className='col col-lg-2'>
+                <FaDocker size={80} />
+              </div>
+              <div className='col col-lg-2'>
+                <SiNginx size={80} />
+              </div>
+              <div className='col col-lg-2'>
+                <FaGitSquare size={80} />
+              </div>
+              <div className='col-lg-2'>
+                <FaUbuntu size={80} />
+              </div>
             </div>
           </div>
         </div>

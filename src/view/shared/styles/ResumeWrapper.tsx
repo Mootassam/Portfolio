@@ -11,7 +11,7 @@ const ResumeWrapper = styled.div`
   .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #6c3654;
+    border-left: 2px solid #795548;
     position: relative;
   }
 
@@ -31,7 +31,7 @@ const ResumeWrapper = styled.div`
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #6c3654;
+    color: #795548;
   }
 
   .resume .resume-item ul {
@@ -55,7 +55,7 @@ const ResumeWrapper = styled.div`
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #6c3654;
+    border: 2px solid #795548;
   }
   section {
     padding: 60px 0;
@@ -85,7 +85,7 @@ const ResumeWrapper = styled.div`
     display: block;
     width: 50px;
     height: 3px;
-    background: #6c3654;
+    background: #795548;
     bottom: 0;
     left: calc(50% - 25px);
   }

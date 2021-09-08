@@ -5,7 +5,7 @@ function Footer() {
     <footer id='footer'>
       <div className='container'>
         <div className='copyright'>
-          &copy; Copyright{" "}
+          &copy; Copyright
           <strong>
             <span>Kelly</span>
           </strong>

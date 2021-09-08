@@ -152,7 +152,7 @@ const ServiceWrapper = styled.div`
     display: block;
     width: 50px;
     height: 3px;
-    background: #6c3654;
+    background: #795548;
     bottom: 0;
     left: calc(50% - 25px);
   }

@@ -44,11 +44,12 @@ const HomeWrapper = styled.div`
     transition: 0.5s;
     margin-top: 30px;
     color: #fff;
-    background: #6c3654;
+    background: #795548;
   }
 
   #hero .btn-about:hover {
-    background: #3dc8b7;
+    background: #eaf2fa;
+    color: black;
   }
 
   @media (min-width: 1024px) {
@@ -60,7 +61,7 @@ const HomeWrapper = styled.div`
   @media (max-width: 992px) {
     #hero:before {
       content: "";
-      background: rgba(255, 255, 255, 0.8);
+      // background: rgba(255, 255, 255, 0.8);
       position: absolute;
       bottom: 0;
       top: 0;
@@ -105,7 +106,7 @@ const HomeWrapper = styled.div`
     display: block;
     width: 50px;
     height: 3px;
-    background: #6c3654;
+    background: #795548;
     bottom: 0;
     left: calc(50% - 25px);
   }

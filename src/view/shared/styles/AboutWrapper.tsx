@@ -18,7 +18,7 @@ const AboutWrapper = styled.div`
   .about .content ul i {
     font-size: 20px;
     padding-right: 2px;
-    color: #6c3654;
+    color: #795548;
   }
 
   .about .content p:last-child {
@@ -27,7 +27,12 @@ const AboutWrapper = styled.div`
 
   /*--------------------------------------------------------------
                   # Skills
-                  --------------------------------------------------------------*/
+  --------------------------------------------------------------*/
+  #skills {
+    justify-content: space-between;
+    background: #eaf2fa;
+  }
+
   .skills .progress {
     height: 60px;
     display: block;
@@ -35,30 +40,11 @@ const AboutWrapper = styled.div`
     border-radius: 0;
   }
 
-  .skills .progress .skill {
-    padding: 10px 0;
-    margin: 0 0 6px 0;
-    text-transform: uppercase;
-    display: block;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #222222;
-  }
-
-  .skills .progress .skill .val {
-    float: right;
-    font-style: normal;
-  }
-
-  .skills .progress-bar-wrap {
-    background: #f3f3f3;
-  }
-
   .skills .progress-bar {
     width: 1px;
     height: 10px;
     transition: 0.9s;
-    background-color: #6c3654;
+    background-color: #795548;
   }
   section {
     padding: 60px 0;
@@ -88,7 +74,7 @@ const AboutWrapper = styled.div`
     display: block;
     width: 50px;
     height: 3px;
-    background: #6c3654;
+    background: #795548;
     bottom: 0;
     left: calc(50% - 25px);
   }
