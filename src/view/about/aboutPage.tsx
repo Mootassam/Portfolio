@@ -1,6 +1,16 @@
 import React from "react";
 import AboutWrapper from "../shared/styles/AboutWrapper";
-
+import {
+  FaReact,
+  FaHtml5,
+  FaCss3,
+  FaNodeJs,
+  FaAngular,
+  FaDocker,
+  FaGitSquare,
+  FaUbuntu,
+} from "react-icons/fa";
+import { SiJavascript, SiTypescript, SiNginx } from "react-icons/si";
 function aboutPage() {
   return (
     <AboutWrapper>
@@ -8,13 +18,6 @@ function aboutPage() {
         <div className='container' data-aos='fade-up'>
           <div className='section-title'>
             <h2>About</h2>
-            <p>
-              Full Stack Developer with 1+ year of hands-on experience
-              designing, developing, and implementing applications and solutions
-              using a range of technologies and programming languages. Seeking
-              to leverage broad development experience and hands-on technical
-              expertise in a challenging role as a Full-stack Developer.
-            </p>
           </div>
 
           <div className='row'>
@@ -22,10 +25,14 @@ function aboutPage() {
               <img src='assets/img/about.jpg' className='img-fluid' />
             </div>
             <div className='col-lg-8 pt-4 pt-lg-0 content'>
-              <h3>Illustrator &amp; UI/UX Designer</h3>
+              <h3>Hi! I'm Mootassam Boughdiri</h3>
               <p className='fst-italic'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                A Full Stack Developer with 1+ year of hands-on experience
+                designing, developing, and implementing applications and
+                solutions using a range of technologies and programming
+                languages. Seeking a challenging role as a Full-Stack Developer
+                where I can apply my broad development experience and hands-on
+                technical expertise.
               </p>
               <div className='row'>
                 <div className='col-lg-6'>
@@ -87,101 +94,22 @@ function aboutPage() {
         <div className='container' data-aos='fade-up'>
           <div className='section-title'>
             <h2>Skills</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
           </div>
 
           <div className='row skills-content'>
-            <div className='col-lg-6'>
-              <div className='progress'>
-                <span className='skill'>
-                  HTML <i className='val'>100%</i>
-                </span>
-                <div className='progress-bar-wrap'>
-                  <div
-                    className='progress-bar'
-                    role='progressbar'
-                    aria-valuenow={100}
-                    aria-valuemin={0}
-                    aria-valuemax={100}></div>
-                </div>
-              </div>
-
-              <div className='progress'>
-                <span className='skill'>
-                  CSS <i className='val'>90%</i>
-                </span>
-                <div className='progress-bar-wrap'>
-                  <div
-                    className='progress-bar'
-                    role='progressbar'
-                    aria-valuenow={90}
-                    aria-valuemin={0}
-                    aria-valuemax={100}></div>
-                </div>
-              </div>
-
-              <div className='progress'>
-                <span className='skill'>
-                  JavaScript <i className='val'>75%</i>
-                </span>
-                <div className='progress-bar-wrap'>
-                  <div
-                    className='progress-bar'
-                    role='progressbar'
-                    aria-valuenow={75}
-                    aria-valuemin={0}
-                    aria-valuemax={100}></div>
-                </div>
-              </div>
-            </div>
-
-            <div className='col-lg-6'>
-              <div className='progress'>
-                <span className='skill'>
-                  PHP <i className='val'>80%</i>
-                </span>
-                <div className='progress-bar-wrap'>
-                  <div
-                    className='progress-bar'
-                    role='progressbar'
-                    aria-valuenow={80}
-                    aria-valuemin={0}
-                    aria-valuemax={100}></div>
-                </div>
-              </div>
-
-              <div className='progress'>
-                <span className='skill'>
-                  WordPress/CMS <i className='val'>90%</i>
-                </span>
-                <div className='progress-bar-wrap'>
-                  <div
-                    className='progress-bar'
-                    role='progressbar'
-                    aria-valuenow={90}
-                    aria-valuemin={0}
-                    aria-valuemax={100}></div>
-                </div>
-              </div>
-
-              <div className='progress'>
-                <span className='skill'>
-                  Photoshop <i className='val'>55%</i>
-                </span>
-                <div className='progress-bar-wrap'>
-                  <div
-                    className='progress-bar'
-                    role='progressbar'
-                    aria-valuenow={55}
-                    aria-valuemin={0}
-                    aria-valuemax={100}></div>
-                </div>
-              </div>
+            <div className='col-lg-12'>
+              <FaReact size={80} />
+              <FaHtml5 size={80} />
+              <FaCss3 size={80} />
+              <FaNodeJs size={80} />
+              <FaAngular size={80} />
+              <SiJavascript size={80} /> &nbsp;
+              <SiTypescript size={80} />
+              &nbsp;
+              <FaDocker size={80} />
+              <SiNginx size={80} />
+              <FaGitSquare size={80} />
+              <FaUbuntu size={80} />
             </div>
           </div>
         </div>
