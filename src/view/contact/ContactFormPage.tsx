@@ -40,7 +40,7 @@ function ContactFormPage() {
                 <FaMapMarkerAlt size={30} />
                 <div className='address'>
                   <h4>Location:</h4>
-                  <p>Tunis</p>
+                  <p>Tunis , Kasserine </p>
                 </div>
 
                 <div className='email'>
