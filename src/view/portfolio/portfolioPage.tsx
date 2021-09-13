@@ -43,7 +43,7 @@ function portfolioPage() {
                   <p>Card</p>
                   <div className='portfolio-links'>
                     <a
-                      href='assets/img/portfolio/portfolio-7.jpg'
+                      href='assets/img/portfolio/audit.png'
                       data-gallery='portfolioGallery'
                       className='portfolio-lightbox'
                       title='Card 1'>
@@ -64,7 +64,7 @@ function portfolioPage() {
             <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
               <div className='portfolio-wrap'>
                 <img
-                  src='assets/img/portfolio/portfolio-8.jpg'
+                  src='assets/img/portfolio/audit.png'
                   className='img-fluid'
                   alt=''
                 />
@@ -94,7 +94,7 @@ function portfolioPage() {
             <div className='col-lg-4 col-md-6 portfolio-item filter-web'>
               <div className='portfolio-wrap'>
                 <img
-                  src='assets/img/portfolio/portfolio-9.jpg'
+                  src='assets/img/portfolio/audit.png'
                   className='img-fluid'
                   alt=''
                 />
