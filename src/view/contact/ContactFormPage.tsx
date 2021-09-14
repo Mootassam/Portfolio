@@ -52,7 +52,7 @@ function ContactFormPage() {
                 <div className='phone'>
                   <FaPhoneAlt size={30} />
                   <h4>Call:</h4>
-                  <p>+216 55.324.424</p>
+                  <p>+216 55-324-424</p>
                 </div>
               </div>
             </div>
